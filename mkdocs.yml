@@ -35,8 +35,6 @@ theme:
       quote: octicons/quote-16
 
   features:
-    # - navigation.tabs
-    # - navigation.tabs.sticky
     # only for insider
     - navigation.path
     - navigation.top
@@ -86,7 +84,7 @@ theme:
         name: Switch to system preference
 
 nav:
-  - Home: "index.md"
+  - Overview: "index.md"
   - Getting Started: "getting-started.md"
   - Type Inference: "type-inference.md"
   - Type Suggestion: "type-suggestion.md"
