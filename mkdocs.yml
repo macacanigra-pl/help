@@ -11,7 +11,7 @@ theme:
     text: Merriweather Sans
     code: Red Hat Mono
   logo: assets/images/mnl_logo_1.svg
-  favicon: assets/images/mnl_logo_1.png
+  favicon: assets/images/favicon.ico
   icon:
     annotation: material/plus-circle-outline
     tag:
