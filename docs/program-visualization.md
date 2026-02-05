@@ -22,17 +22,17 @@ Fig. 2: The content of function's value
 
 ## Beta Reduction
 
-Users can display the beta reduction process by right-clicking on the application block and selecting `Beta Reduction`. In the beta reduction window, they will see the substitution steps arranged sequentially from top to bottom, along with their corresponding values.
+To view the beta reduction process, right-click the application block and choose either `Beta Reduction` or `Beta Reduction - CBV`. The MNL beta reduction uses `eager evaluation`. With `Beta Reduction - CBV`, the parameter structure is replaced with a new one based on the parameter's value after evaluation. In contrast, `Beta Reduction` keeps the original parameter block structure, making it easier to trace where a value comes from. The beta-reduction window shows each substitution step in order from top to bottom, along with its value.
 
- ![workspace](assets/images/beta_reduction_menu_dark.png#only-dark)
- ![workspace](assets/images/beta_reduction_menu_light.png#only-light)
+![workspace](assets/images/beta_reduction_menu_dark.png#only-dark)
+![workspace](assets/images/beta_reduction_menu_light.png#only-light)
 
 /// caption
 Fig. 3: The beta reduction's menu
 ///
 
- ![workspace](assets/images/beta_reduction_window_dark.png#only-dark)
- ![workspace](assets/images/beta_reduction_window_light.png#only-light)
+![workspace](assets/images/beta_reduction_window_dark.png#only-dark)
+![workspace](assets/images/beta_reduction_window_light.png#only-light)
 
 /// caption
 Fig. 4: Beta reduction

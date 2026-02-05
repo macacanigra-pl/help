@@ -1,9 +1,8 @@
-site_name: Macaca Nigra Programming Language
+site_name: Macaca Nigra Language
 site_url: http://help.mnl-pl.org
 site_description: MNL is a Block-based Functional Programming Language
-repo_name: https://macacanigra-pl.github.io/help
 site_author: Macaca Nigra PL
-copyright: Copyright &copy; 2020 - 2026 MnL
+copyright: Copyright &copy; 2020 - 2026 MNL-PL
 
 theme:
   name: material
@@ -103,7 +102,7 @@ plugins:
     # tags_file: tags.md"
 
 extra:
-  homepage: https://www.mnl-pl.org
+  homepage: https://mnl-pl.org
   # remove annotation of mkdocs material from footer
   generator: false
   tags:
